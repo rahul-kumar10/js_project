@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#mainSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 100vw;
+    min-height: auto;
+    margin: 0;
+    padding: 0;
+}
+#mainSection{
+    height: auto;
+    min-height: 100vh;  
+}
+.title {
+    display: flex;
+    background-color: aliceblue;
+    color: green;
+    margin-top: 4rem;
+    width: 60vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    border: 1px solid red;
+    border-radius: 0.8rem;
+}
+h4 {
+    margin: 1.2rem;
+    color: blueviolet;
+    text-align: center;
+}
+.bodySection{
+    background-color: aliceblue;
+    width: 60vw;
+    height: auto;
+    margin-top: 0.7rem;
+    border: 1px solid red;
+    border-radius: 0.8rem;
+}
+#inputContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+label {
+    color: blueviolet;
+}
+#numberContainer {
+    text-align: center;
+}
+strong {
+    font-size: 1.1rem;
+}
+input {
+    width: 18vw;
+    height: 6vh;
+    font-size: 0.9rem;
+    font-weight: 100;
+    border: 1px solid black;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+input:hover{
+    border: 2px solid blue;
+}
+#inputNumber {
+    width: 25vw;
+    margin: 0.8rem;
+}
+#buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 0.8rem;
+}
+button {
+    width: 8vw;
+    height: 5vh;
+    background-color: #00FFF6;
+    color: black;
+    border: 1px solid black;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.4rem;
+}
+button:hover{
+    background-color: rgb(108, 108, 248);
+}
+#outputHeading {
+    color: green;
+    margin: 10rem 1rem 2rem 2.7rem ;
+    /*margin-top: 3rem;
+    margin-left: 2.7rem;
+    margin-bottom: 2rem;*/
+    font-size: 1.2rem;
+}
+
+li {
+    margin: 0.3rem 1rem 0.3rem 4rem;
+    list-style-type: square;
+}
+li::marker{
+    color: green;
+}
+span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: green;
+}
+#note {
+    color: grey;
+    background-color: lightgoldenrodyellow;
+    margin: 1rem 1rem 0.5rem 2.8rem;
+}
+

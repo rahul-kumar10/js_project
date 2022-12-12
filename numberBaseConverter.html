@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Base Converter</title>
+    <link rel="stylesheet" href="./numberBaseConverter.css">
+    <script src="./numberBaseConverter.js" defer ></script>
+</head>
+<body>
+    <div id="mainSection" >
+        <div class="title" >
+            <p>Number Base Converter</p>
+        </div>
+        <div class="bodySection" >
+            <h4>Convert A Number From One Base To Another Base</h4>
+            <div id="inputContainer" >
+                <div>
+                    <label for="baseFrom"> <strong>Base From:-</strong> </label>
+                    <input type="number" id="baseFrom" name="baseValue" min="1" max="36" placeholder="Enter the initial Base" required >
+                </div>
+                <div>
+                    <label for="baseTo"> <strong>Base To:-</strong> </label>
+                    <input type="number" id="baseTo" name="baseValue" min="1" max="36" placeholder="Enter the final Base" required >
+                </div>
+            </div>
+            <div id="numberContainer" >
+                <label for="inputNumber"> <strong>Convert Number :-</strong> </label>
+                <input type="text" id="inputNumber" name="inputValue" placeholder="Enter the number to be Converted" required >
+            </div>
+            <div id="buttonContainer" >
+                <button type="button" onclick="baseConvert()" >Convert</button>
+                <button type="button" onclick="swap()" >Swap</button>
+                <button type="button" onclick="reset()" >Reset</button>
+            </div>
+            <div>
+                <strong id="outputHeading" >Converted Number Is :- </strong>
+            </div>
+            
+            <div id="output" >
+                
+            </div>
+            <p id="note" ><strong>Note:-</strong>Please Enter The Base Value From 1 to 36 Only.</p>
+        </div>
+        
+    </div>
+</body>
+</html>
