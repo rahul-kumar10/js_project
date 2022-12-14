@@ -57,10 +57,6 @@ function baseConvert(){
     convertedChild.appendChild(liTag);
 }
 function reset(){
-    //document.querySelector("#baseFrom").value = "";
-    //document.querySelector("#baseTo").value = "";
-    //document.querySelector("#inputNumber").value = "";
-    //convertedChild.remove();
     location.reload();
 }
 

@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     width: 100vw;
     min-height: auto;
     margin: 0;
@@ -21,6 +21,7 @@
     display: flex;
     background-color: aliceblue;
     color: green;
+    color: black;
     margin-top: 4rem;
     width: 60vw;
     height: 10vh;
@@ -28,21 +29,34 @@
     align-items: center;
     font-size: 1.8rem;
     font-weight: bolder;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 0.8rem;
+    background: rgb(100,100,100) radial-gradient(circle at 50% 0, rgba(255,255,255,.65), rgba(255,255,255,.35));
+  box-shadow:
+  inset rgba(0,0,0,.6) 0 -3px 8px,
+  inset rgba(252,255,255,.7) 0 3px 8px,
+  rgba(0,0,0,.8) 0 3px 8px -3px;
 }
 h4 {
     margin: 1.2rem;
     color: blueviolet;
+    color: #6d02c5;
     text-align: center;
+    font-size: 1.2rem;
 }
 .bodySection{
     background-color: aliceblue;
     width: 60vw;
     height: auto;
     margin-top: 0.7rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    background: rgb(100,100,100) radial-gradient(circle at 50% 0, rgba(255,255,255,.65), rgba(255,255,255,.35));
+    box-shadow:
+    inset rgba(0,0,0,.6) 0 -3px 8px,
+    inset rgba(252,255,255,.7) 0 3px 8px,
+    rgba(0,0,0,.8) 0 3px 8px -3px;
 }
 #inputContainer {
     display: flex;
@@ -51,6 +65,7 @@ h4 {
 }
 label {
     color: blueviolet;
+    color: #6d02c5;
 }
 #numberContainer {
     text-align: center;
@@ -66,6 +81,9 @@ input {
     border: 1px solid black;
     padding: 0.7rem;
     border-radius: 0.5rem;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    font-weight: 300;
 }
 input:hover{
     border: 2px solid blue;
@@ -78,22 +96,28 @@ input:hover{
     display: flex;
     justify-content: space-around;
     margin: 0.8rem;
+    margin-bottom: 1.5rem;
 }
 button {
     width: 8vw;
-    height: 5vh;
+    height: 6vh;
     background-color: #00FFF6;
-    color: black;
+    background-color: rgb(12, 12, 12);
+    background-color: rgb(60, 65, 70);
+    color: white;
+    /* color: white; */
     border: 1px solid black;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 400;
     border-radius: 0.4rem;
 }
 button:hover{
     background-color: rgb(108, 108, 248);
+    background-color: blue;
 }
 #outputHeading {
     color: green;
+    color: black;
     margin: 10rem 1rem 2rem 2.7rem ;
     /*margin-top: 3rem;
     margin-left: 2.7rem;
@@ -114,8 +138,9 @@ span {
     color: green;
 }
 #note {
-    color: grey;
-    background-color: lightgoldenrodyellow;
-    margin: 1rem 1rem 0.5rem 2.8rem;
+    color: rgb(102, 60, 60);
+    /* background-color: lightgoldenrodyellow; */
+    /* background-color: rgb(100,100,100); */
+    margin: 1rem 1rem 0.8rem 2.8rem;
 }
 
