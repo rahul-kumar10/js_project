@@ -6,6 +6,7 @@ function swap(){
     let temp = document.querySelector("#baseFrom").value;
     document.querySelector("#baseFrom").value = document.querySelector("#baseTo").value;
     document.querySelector("#baseTo").value = temp;
+    document.querySelector("#inputNumber").value = finalConvertedValue;
     
 }
 
@@ -18,7 +19,7 @@ function reverseNum(num){
     }
     return x;
 }
-///const convertedChild = document.querySelector("#output");
+
 function baseConvert(){
     let inputValue = inputNumber.value;
     let initialBase = Number(inputFrom.value);
@@ -47,12 +48,12 @@ function baseConvert(){
         convertedValue += temp;
         decimalValue = Math.floor(decimalValue / finalBase)
     }
-    let finalConvertedValue = (reverseNum(convertedValue));
+    const finalConvertedValue = (reverseNum(convertedValue));
     let convertedChild = document.querySelector("#output");
     let liTag = document.createElement("li");
     let spanTag = document.createElement("span");
     spanTag.innerHTML = `${finalConvertedValue}`;
-    liTag.innerHTML = `From Base ${initialBase} to Base ${finalBase} is :- `;
+    liTag.innerHTML = `For The Number ${inputValue} From Base ${initialBase} to Base ${finalBase} is :- `;
     liTag.appendChild(spanTag);
     convertedChild.appendChild(liTag);
 }
