@@ -2,8 +2,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
-#mainSection {
+
+.mainSection {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,10 +14,12 @@
     margin: 0;
     padding: 0;
 }
-#mainSection{
+
+.mainSection {
     height: auto;
-    min-height: 100vh;  
+    min-height: 100vh;
 }
+
 .title {
     display: flex;
     color: black;
@@ -24,51 +28,59 @@
     height: 10vh;
     justify-content: center;
     align-items: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: bolder;
     border-radius: 0.8rem;
-    background: rgb(100,100,100) radial-gradient(circle at 50% 0, rgba(255,255,255,.65), rgba(255,255,255,.35));
-  box-shadow:
-  inset rgba(0,0,0,.6) 0 -3px 8px,
-  inset rgba(252,255,255,.7) 0 3px 8px,
-  rgba(0,0,0,.8) 0 3px 8px -3px;
+    background: rgb(200, 200, 200) radial-gradient(circle at 50% 0, rgba(255, 255, 255, .65), rgba(255, 255, 255, .35));
+    box-shadow:
+        inset rgba(0, 0, 0, .6) 0 -3px 8px,
+        inset rgba(252, 255, 255, .7) 0 3px 8px,
+        rgba(0, 0, 0, .8) 0 3px 8px -3px;
 }
+
 h4 {
     margin: 1.2rem;
-    color: #6d02c5;
+    color: black;
+    font-weight: 200;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
-.bodySection{
+
+.bodySection {
     width: 60vw;
     height: auto;
     margin-top: 0.7rem;
     border-radius: 0.8rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
-    background: rgb(100,100,100) radial-gradient(circle at 50% 0, rgba(255,255,255,.65), rgba(255,255,255,.35));
+    background: rgb(200, 200, 200) radial-gradient(circle at 50% 0, rgba(255, 255, 255, .65), rgba(255, 255, 255, .35));
     box-shadow:
-    inset rgba(0,0,0,.6) 0 -3px 8px,
-    inset rgba(252,255,255,.7) 0 3px 8px,
-    rgba(0,0,0,.8) 0 3px 8px -3px;
+        inset rgba(0, 0, 0, .6) 0 -3px 8px,
+        inset rgba(252, 255, 255, .7) 0 3px 8px,
+        rgba(0, 0, 0, .8) 0 3px 8px -3px;
 }
-#inputContainer {
+
+.inputContainer {
     display: flex;
     justify-content: space-around;
     margin: 1rem;
 }
+
 label {
-    color: #6d02c5;
+    color: black;
 }
-#numberContainer {
+
+.numberContainer {
     text-align: center;
 }
+
 strong {
     font-size: 1.1rem;
 }
+
 input {
     width: 18vw;
     height: 6vh;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: 100;
     border: 1px solid black;
     padding: 0.7rem;
@@ -77,33 +89,40 @@ input {
     color: black;
     font-weight: 300;
 }
-input:hover{
+
+input:hover {
     border: 2px solid blue;
 }
+
 #inputNumber {
     width: 25vw;
     margin: 0.8rem;
 }
-#buttonContainer {
+
+.buttonContainer {
     display: flex;
     justify-content: space-around;
     margin: 0.8rem;
     margin-bottom: 1.5rem;
 }
+
 button {
     width: 8vw;
     height: 6vh;
-    background-color: rgb(60, 65, 70);
+    background-color: rgb(118, 117, 212);
     color: white;
-    border: 1px solid black;
+    border: 1px solid blue;
     font-size: 1rem;
     font-weight: 400;
     border-radius: 0.4rem;
 }
-button:hover{
+
+button:hover {
     background-color: blue;
+    color: white;
 }
-#outputHeading {
+
+.outputHeading {
     color: black;
     margin: 10rem 1rem 2rem 2.7rem;
     font-size: 1.2rem;
@@ -113,17 +132,18 @@ li {
     margin: 0.3rem 1rem 0.3rem 4rem;
     list-style-type: square;
 }
-li::marker{
-    color: green;
+
+li::marker {
+    color: black;
 }
+
 span {
     font-size: 1.2rem;
     font-weight: bold;
-    color: green;
+    color: black;
 }
-#note {
+
+.note {
     color: rgb(102, 60, 60);
     margin: 1rem 1rem 0.8rem 2.8rem;
 }
-
-

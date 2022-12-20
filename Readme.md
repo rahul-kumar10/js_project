@@ -1,19 +1,17 @@
-=> Design a converter in Javascript which converts the given number with a given base to corresponding representation in other base
+# Number Base Converter
+This project is a web application created with HTML, CSS, and JavaScript that allows a user to convert numbers between different bases.
 
-=> Here we enter the initial base of the number in "Base From" input section.
+# Features
+- Convert numbers between bases 2-36.
+- Input validation to ensure only valid numbers are entered.
+- Empty input field for incorrect input.
+- It stores the history of results until you did't reset or refresh the page.
+- Easy to use interface.
+- Can swap the base of number with each other using swap button.
 
-=> Now will enter the Base in which we want to convert a number in "Base To" input section.
-
-=> Enter the number which base you want to convert in "Convert Number" input section.
-
-=> Finally press the "Convert" button.
-
-=> Converted Number will be shown below the "Converted Number Is" section.
-
-=> And it will stores the history of converted number, its initial base and Final Base untill you did't hit the reset button or refresh the page.
-
-=> Swap button is also provided, after pressing the swap button base input value will be swaped with each other.
-
-=> Reset button is provided for resetting all the fields.
-
-=> This will produce the correct output for base 2 to 36. 
+# Usage
+1. Enter the initial base number in the input field Base From.
+2. Enter the base in which the number is to be convert in the input field Base To.
+3. Enter any number which base you want to convert.
+4. Click the convert button.
+5. The converted number will appear in the output field.
